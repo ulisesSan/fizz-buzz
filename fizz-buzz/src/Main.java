@@ -10,7 +10,7 @@ public class Main {
         for (int i = 1; i <= 100; i++) {
             String outPut = "";
             if(i%3 == 0){
-                outPut = "Fizz      " + i;
+                outPut = "fizz      " + i;
 
                 if(i%3 == 0 && i%5 == 0){
                     outPut = ("fizz-buzz " + i);
